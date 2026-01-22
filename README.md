@@ -6,4 +6,4 @@
 
 # Image : 
 
-"<img src="[URL=https://imgbox.com/8FInzhgk][IMG]https://thumbs2.imgbox.com/67/49/8FInzhgk_t.jpeg[/IMG][/URL]" width="200">" 
+"<img src="https://imgbox.com/8FInzhgk][IMG]https://thumbs2.imgbox.com/67/49/8FInzhgk_t.jpeg" width="200">" 
