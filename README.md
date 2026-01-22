@@ -6,4 +6,4 @@
 
 # Image : 
 
-"<img src="[https://imgbox.com/8FInzhgk]" width="200">" 
+<img src=[https://imgbox.com/8FInzhgk] width="200">
