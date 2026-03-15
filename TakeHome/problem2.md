@@ -19,6 +19,10 @@ class Player {
     void setName(string);
     void setLevel(int);
     void setScore(int);
+
+    void levelup(){
+        level++;
+    }
     
 };
 '''
