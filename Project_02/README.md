@@ -8,7 +8,7 @@ The program reads command-line arguments, validates them, and stores them in a s
 
 # How to compile 
 
-g++ main.cpp Args.cpp -o imgtool
+g++ main.cpp args_deux.cpp -o imgtool
 
 # Valid Examples
 

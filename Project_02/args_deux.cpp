@@ -2,10 +2,19 @@
 #include <string>
 #include <fstream>
 #include <vector>
+#include "Args.h"
 
 using namespace std;
 
 vector<string> valid= {"--grayscale","--brightness","--rotate","--blur"};
+
+Args::Args(int argc, char* argv[]) {
+    
+}
+
+void Args::print() const {
+   
+}
 
 bool argTester(string arg){
     for(auto &item : valid){
@@ -16,11 +25,6 @@ bool argTester(string arg){
     return false;
 }
 
-int main(int argc, char** argv){
-
-    for(int i=0;i<argc;i++){
-        cout<<i<<". "<<argv[i]<<endl;
-    }
 
     
 
@@ -47,4 +51,3 @@ int main(int argc, char** argv){
     ////////////////////////////////////////////////////////////////////////////////////
     // cout<<argc<<endl;
     // cout<<argv[0]<<endl;
-}
